@@ -1,5 +1,5 @@
 # Watermelon++
-a programming language based on XZL powered by watermelons
+a programming language based on XZL powered by watermelons. NOT A FORK!! MOVED FROM AN OLD ACCOUNT [(info here)](https://github.com/aceinetx/WhatHappened)
 <br>
 ### How to install
 Download python (>=3.9 recommended)
