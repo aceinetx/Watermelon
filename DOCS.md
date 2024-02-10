@@ -165,10 +165,6 @@ nf;
 ## WinApi namespace (Beta)
 ```winapi::MessageBox <arg1: HWND, arg2: text, arg3: caption, arg4: type>```<br>
 
-# 2.0 Pre-release namespaces
-Watermelon++2.0 Release
-
-Everything that's added (including pre-release)
 ## ImGui namespace (beta)
 Variable: ```ImGui::primary_window```<br>
 ```ImGui::create_imgui_thread <arg1: main window name, arg2: viewport title, arg3: window_width, arg4: window_height```<br>
