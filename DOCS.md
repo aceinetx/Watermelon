@@ -13,6 +13,9 @@
 ```setchar <strname: Identifier> <char: TStr> <index: TInt>``` - set strname[index] to char<br>
 ```nf``` - end function definition<br>
 ```call <name: Identifier>``` - call function<br>
+```loop``` - define a loop<br>
+```breal``` - break loop<br>
+```lend``` - end loop definition<br>
 ```namespace <name: Identifier>``` - define a namespace<br>
 ```nsEnd``` - end namespace definition<br>
 ```exit <code: TInt>``` - exit with errorlevel<br>
@@ -126,24 +129,22 @@ nf;
 ```
 
 ### Loops
-there is no such thing as loops lol who needs those, but you can implement it using functions
 ```
-fn loop;
-
-  println "Count: $count^";
-  var count + 1;
-
-  if count <= 5
-    call loop;
-  end
-nf;
-
 fn main;
 
   var count = 1;
   var max = 5;
 
-  call loop;
+  loop;
+
+    println "Count: $count^";
+    var count + 1;
+
+    if count >= 6
+    break
+    end
+
+  lend;
 
   return 0;
 nf;
