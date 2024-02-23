@@ -14,7 +14,7 @@
 ```nf``` - end function definition<br>
 ```call <name: Identifier>``` - call function<br>
 ```loop``` - define a loop<br>
-```breal``` - break loop<br>
+```break``` - break loop<br>
 ```lend``` - end loop definition<br>
 ```namespace <name: Identifier>``` - define a namespace<br>
 ```nsEnd``` - end namespace definition<br>
