@@ -16,6 +16,8 @@
 ```loop``` - define a loop<br>
 ```break``` - break loop<br>
 ```lend``` - end loop definition<br>
+```__allow_pyexec``` - Allow __pyexec execution<br>
+```__deny_pyexec``` - Deny __pyexec execution<br>
 ```namespace <name: Identifier>``` - define a namespace<br>
 ```nsEnd``` - end namespace definition<br>
 ```exit <code: TInt>``` - exit with errorlevel<br>
@@ -192,7 +194,12 @@ Variable: ```ImGui::primary_window```<br>
 ```hashmap::set <arg1: name, arg2: key, arg3: value>```<br>
 ```hashmap::get <arg1: name, arg2: key>```: Returnable<br>
 ```hashmap::delete <arg1: name, arg2: key>```<br>
-
+## Scope namespace
+```scope::new_scope <arg1: scopename>```<br>
+```scope::change_scope <arg1: scopename>```<br>
+```scope::delete_scope <arg1: scopename>```<br>
+## Timedvar namespace
+```timedvar::seconds <arg1: varname, arg2: seconds>```<br>
 <br>
 <br>
 uhh that's whole watermelon++ ig?
