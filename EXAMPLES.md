@@ -164,3 +164,30 @@ fn main;
   return 0;
 nf;
 ```
+
+## Scopes
+```
+fn main;
+  call scope::new_scope "test";
+  call scope::change_scope "test";
+  var a = 123;
+  call scope::change_scope "global";
+  println "a is: $a^"; ? will not print anything because a is defined in test -?
+  call scope::change_scope "test";
+  println "a is: $a^"; ? will print because we changed to test -?
+  call scope::delete_scope "test";
+  return 0;
+nf;
+```
+
+## Timed var
+```
+fn main;
+  var a = 123;
+  call timedvar::seconds "a" 2;
+  println "a is: $a^"; ? will print because it is not timed out yet -?
+  sleep 3;
+  println "a is: $a^"; ? will not print because a is timed out -?
+  return 0;
+nf;
+```
