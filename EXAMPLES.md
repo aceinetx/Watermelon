@@ -92,7 +92,7 @@ fn main;
 nf;
 ```
 
-## ImGui Menu (2.0 Pre-release only)
+## ImGui Menu
 ```
 fn apploop;
 
