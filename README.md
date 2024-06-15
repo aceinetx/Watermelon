@@ -1,5 +1,5 @@
 # Watermelon++
-a programming language based on [XZL](https://github.com/aceinet/xzlang) powered by watermelons. NOT A FORK!! MOVED FROM AN OLD ACCOUNT [(info here)](https://github.com/aceinetx/WhatHappened)
+a programming language based on [XZL](https://github.com/aceinet/xzlang) powered by watermelons, which does it's own thing. NOT A FORK!! MOVED FROM AN OLD ACCOUNT [(info here)](https://github.com/aceinetx/WhatHappened)
 <br>
 ### How to install
 Download python (>=3.9 recommended)
