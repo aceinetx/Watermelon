@@ -9,9 +9,9 @@ ImGui ui developement speed with watermelon++ is on whole another level, no link
 - Built in Hashmaps, arrays
 - Have you seen namespaces in an interpreted language? Yeah, watermelon++ has them
 ### How to install
-Download python (3.11)
-<br>Install dearpygui with pip
-<br>Run the .pyc file from release from console
-<br>[Documentation](DOCS.md)
-<br>[Examples](EXAMPLES.md)
-<br>happy 🍉++ ing!
+Download python (3.11)<br>
+Install dearpygui with pip<br>
+Run the .pyc file from release from console<br>
+[Documentation](DOCS.md)<br>
+[Examples](EXAMPLES.md)<br>
+happy 🍉++ ing!
