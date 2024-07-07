@@ -87,7 +87,7 @@ fn main;
   return 0;
 nf;
 ```
-<br>also you can call functions without overloading arg variables (from v1.1.1)
+<br>also you can call functions without changing arg variables (from v1.1.1)
 ```
 fn add;
   var arg1 + arg2;
