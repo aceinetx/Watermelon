@@ -12,7 +12,7 @@ ImGui ui developement speed with watermelon++ is on whole another level, no link
 - Classes
 - Expressions (yes, watermelon++ does NOT have expressions, at least, the ones that you are used to)
 ### Interested?
-Try out watermelon++ [online](https://aceinetx.github.io/wpp_online/)
+Try out watermelon++ [online](https://aceinetserv.000webhostapp.com/wpp_online/)
 ### How to install
 Download python (3.11)<br>
 Install dearpygui with pip<br>
