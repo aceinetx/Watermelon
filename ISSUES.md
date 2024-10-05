@@ -1,2 +1,2 @@
 # Known issues:
-- Closing ImGui Window can sometimes lead to exit code not being 0
+- Closing ImGui Window can sometimes lead to segmentation fault
