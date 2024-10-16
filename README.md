@@ -12,7 +12,7 @@ ImGui ui developement speed with watermelon++ is on whole another level, no link
 - Classes
 - Expressions (yes, watermelon++ does NOT have expressions, at least, the ones that you are used to)
 ### How to install
-Download python (3.11)<br>
+Download python (3.12.6)<br>
 Install dearpygui with pip<br>
 Run the .pyc file from release from console<br>
 [Documentation](DOCS.md)<br>
