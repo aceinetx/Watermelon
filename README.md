@@ -8,9 +8,6 @@ ImGui ui developement speed with watermelon++ is on whole another level, no link
 - Unique syntax
 - Built in Hashmaps, arrays
 - Have you seen namespaces in an interpreted language? Yeah, watermelon++ has them
-### Planned features
-- Classes
-- Expressions (yes, watermelon++ does NOT have expressions, at least, the ones that you are used to)
 ### How to install
 Download python (3.12.6)<br>
 Install dearpygui with pip<br>
