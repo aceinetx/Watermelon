@@ -1,4 +1,6 @@
 # Watermelon++
+<img title="Watermelon++" src="/images/wpp.png" width=200>
+
 a programming language based on [XZL](https://github.com/aceinet/xzlang) powered by watermelons, which does it's own thing. NOT A FORK!! MOVED FROM AN OLD ACCOUNT [(info here)](https://github.com/aceinetx/WhatHappened)
 <br>
 ### Why watermelon++
